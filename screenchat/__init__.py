@@ -3,7 +3,6 @@ from ollama import chat
 from ollama import ChatResponse
 import time
 import pydirectinput
-# Sleep for 2 seconds
 
 def main():
     while True:
@@ -26,3 +25,6 @@ def main():
         print(response.message.content)
         print("Hope this response satisfies you.")
         time.sleep(2)
+
+if __name__ == '__main__':
+    main()
